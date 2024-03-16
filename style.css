@@ -6,9 +6,6 @@
   src: url();
 }
 
-.nav{
-    z-index: 10;
-}
 
 .header {
     height: 50px;
@@ -49,7 +46,7 @@
 .containt1 {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 27px;
     justify-content: center;
     align-items: center;
 }
