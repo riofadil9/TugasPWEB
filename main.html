@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pekerjaan.css">
+    <title>pekerjaan</title>
+</head>
+<body>
+    <nav class="header">
+        <div class="header1"></div>
+        <div class="header3">
+            <div class="header2">
+                Tentang Kami
+            </div>
+            <div class="header2">
+                Beranda
+            </div>
+            <div class="header2">
+                Contact Us
+            </div>
+        </div>
+        <div class="header1"></div>
+    </nav>
+    <div class="pekerjaan">
+        <h1 class="profesi">
+            Pilih Profesi Anda
+        </h1>
+    </div>
+    <div class="containt1">
+        <div class="containt2">
+            <div class="box1">
+                <div>
+                    <img src="https://waktunyabikinwebsite.my.id/tentara.png" alt="Tentara" style="margin-top: -50px;">
+                </div>
+                <div>
+                    <div class="tentara">
+                        <h2 class="namatentara">Tentara</h2>
+                        <p style="margin-top: 0px;">Tentara harus kuat!</p>
+                    </div>
+                    <div class="tentara">
+                        <button class="pilihtentara" onclick="alert('anda memilih tentara')">Pilih Saya</button>
+                    </div>
+                </div>
+            </div>
+            <div class="box2">
+                <div class="box21">
+                    <div class="box211">
+                        <img class="petani" src="https://waktunyabikinwebsite.my.id/petani.png" alt="Petani">
+                        <button class="pilihpetani" id="petani">Pilih Saya</button>
+                    </div>
+                    <div class="box212">
+                        <img class="pramugari" src="https://waktunyabikinwebsite.my.id/pramugari.png" alt="" class="pramugari">
+                        <button class="pilihpramugari">Pilih Saya</button>
+                    </div>
+                </div>
+                <div class="box3">
+                    <img class="fotophotografer" src="https://waktunyabikinwebsite.my.id/photografer.png" alt="Photografer">
+                    <h2 class="photografer">Photografer</h2>
+                    <p class="photografer1">Fotografer adalah orang yang suka memfoto</p>
+                    <button class="pilihphotografer">Pilih Saya</button>
+                </div>
+            </div>
+        </div>
+        <div class="containt3">
+            <div class="containt31">
+                <div class="boxdokter">
+                    <img class="fotodokter" src="https://waktunyabikinwebsite.my.id/dokter.png" alt="" class="gambardokter">
+                    <div class="ketdokter">
+                        <h2 class="namadokter">Dokter</h2>
+                        <button class="pilihdokter">Pilih saya</button>
+                    </div>
+                </div>
+                <div class="boxdokter">
+                    <img src="https://waktunyabikinwebsite.my.id/pilot.png" alt="" class="fotodokter">
+                    <div class="ketdokter">
+                        <h2 class="namadokter">Pilot</h2>
+                        <button class="pilihdokter">Pilih saya</button>
+                    </div>
+                </div>
+                <div class="boxdokter">
+                    <img src="https://waktunyabikinwebsite.my.id/ilmuan.png" alt="" class="fotodokter">
+                    <div class="ketdokter">
+                        <h2 class="namadokter">Pilot</h2>
+                        <button class="pilihdokter">Pilih saya</button>
+                    </div>
+                </div>
+            </div>
+            <div class="containt4">
+                <div class="pembalap">
+                    <img src="https://waktunyabikinwebsite.my.id/pembalap.png" alt="" class="fotopembalap">
+                    <div class="ketpembalap">
+                        <h4 class="namapembalap">Pembalap</h4>
+                        <button class="pilihpembalap">Pilih saya</button>
+                    </div>
+                </div>
+                <div class="pembalap1">
+                    <img src="https://waktunyabikinwebsite.my.id/astronout.png" alt="" class="fotopembalap">
+                    <div class="ketpembalap">
+                        <h4 class="namapembalap">Pembalap</h4>
+                        <button class="pilihpembalap1">Pilih saya</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="containt2"></div>
+    </div>
+
+</body>
+<script>
+    var a = 10;
+    b = 20;
+    console.log("a:",a,"b:",b);
+
+    function Person(first,last){
+        this.firstname = first;
+        this.lastname = last;
+        this.hi = function(){
+            console.log("hi", this.firstname + this.lastname);
+        }
+    }
+    Person.prototype.hello = function(){
+        console.log("Hello", this.firstname + this.lastname)
+    }
+    Person.prototype.role = "iron man";
+
+    var p1 = new Person("Tony", "Stark");
+    p1.hello();
+    p1.hi();
+    // var petani = document.getElementById("petani");
+    // petani.innerHTML = "Click Me";
+</script>
+</html>
